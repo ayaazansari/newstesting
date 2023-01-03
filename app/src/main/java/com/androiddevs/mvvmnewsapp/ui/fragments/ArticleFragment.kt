@@ -23,8 +23,5 @@ class ArticleFragment : Fragment(R.layout.fragment_article) {
             webViewClient = WebViewClient()
             loadUrl(article.url)
         }
-        fab.setOnClickListener{
-
-        }
     }
 }
